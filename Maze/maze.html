@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>迷宫</title>
+	<link rel="stylesheet" type="text/css" href="css/maze.css" />
+</head>
+<body>
+	<div>
+	    <label>列数<input id='col' type='number' name='col' /></label>
+	    <label>行数<input id='row' type='number' name='row' /></label>
+	    <input type='button' value = '生成迷宫' id='button'/>
+	    <input type='button' value = '路径' id='button1'/>
+	</div>
+	<div class='wrap'>
+	    <canvas width=400  height=400 id='canvas'></canvas>
+	</div>
+	<div class="roodd">
+		<p id="rood"></p>
+	</div>
+	<script type="text/javascript" src="js/maze.js"></script>
+</body>
+</html>
